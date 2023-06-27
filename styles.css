@@ -1,0 +1,59 @@
+.radio5 {
+    border-radius: 5%;
+}
+
+.container {
+    display: grid;
+    height: 610px;
+    width: 1024px;
+    background-color: red;
+    grid-template-columns: repeat(1024, 1px);
+    grid-template-rows: 200px 200px 200px;
+    row-gap: 5px;
+    padding-left: 5px;
+}
+
+.one {
+    background-color: lightblue;
+    grid-area: 1 / 1 / span 1 / span 508;
+}
+
+.two {
+    background-color: lightcoral;
+    grid-area: 1 / 513 / span 1 /span 508;
+}
+
+.three {
+    background-color: lightgreen;
+    grid-area: 2 / 1 / span 1 / span 221;
+}
+
+.four {
+    background-color: lightpink;
+    grid-area: 2 / 226 / span 1 / span 221;
+}
+
+.five {
+    background-color: lightsalmon;
+    grid-area: 2 / 452 / span 1 / span 221;
+}
+
+.six {
+    background-color: lightseagreen;
+    grid-area: 3 / 1 / span 1 / span 221;
+}
+
+.seven {
+    background-color: lightskyblue;
+    grid-area: 3 / 226 / span 1 / span 221;
+}
+
+.eight {
+    background-color: lightgrey;
+    grid-area: 3 / 452 / span 1 / span 221;
+}
+
+.nine {
+    background-color: black;
+    grid-area: 2 / 681 / span 2 / span 343;
+}
